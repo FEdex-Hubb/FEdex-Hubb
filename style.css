@@ -171,3 +171,37 @@
 .cover-button:hover {
     background: #e65c00;
 }
+
+/* Tracking Section */
+
+.tracking {
+    background: #4d148c;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 40px 0;
+}
+
+.tracking input {
+    width: 320px;
+    max-width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.tracking button {
+    padding: 15px 30px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tracking button:hover {
+    background: #e65c00;
+}
