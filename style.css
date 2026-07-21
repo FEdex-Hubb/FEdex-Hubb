@@ -69,3 +69,60 @@
     margin-top: 15px;
     color: #4d148c;
 }
+
+/* Cover Banner */
+
+.cover-section {
+    background-image: url("images/cover-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.cover-overlay {
+    background: rgba(0,0,0,0.45);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cover-overlay h1 {
+    font-size: 45px;
+}
+
+.cover-overlay p {
+    font-size: 20px;
+}
+
+
+/* Home Delivery Vehicle Section */
+
+.delivery-card {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.delivery-card img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.delivery-text {
+    flex: 1;
+}
+
+.delivery-text h2 {
+    color: #4d148c;
+}
