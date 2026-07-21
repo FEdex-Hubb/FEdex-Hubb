@@ -126,3 +126,48 @@
 .delivery-text h2 {
     color: #4d148c;
 }
+
+/* Cover Photo */
+
+.cover-section {
+    background-image: url("images/cover-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.cover-overlay {
+    background: rgba(0,0,0,0.45);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.cover-overlay h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.cover-overlay p {
+    font-size: 22px;
+}
+
+.cover-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.cover-button:hover {
+    background: #e65c00;
+}
