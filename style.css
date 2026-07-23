@@ -219,3 +219,39 @@ body {
 .tracking button:hover {
     background: #e65c00;
 }
+/* Your existing CSS stays above */
+
+
+/* NEW IMAGE + PAGE SIZE SETTINGS */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+
+.delivery-card img,
+.customer-card img {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.section {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .delivery-card img,
+    .customer-card img {
+        height: 220px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
