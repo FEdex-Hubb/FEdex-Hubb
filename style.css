@@ -87,7 +87,7 @@ body {
 /* Cover Banner */
 
 .cover-section {
-    background-image: url("images/cover-photo.jpg");
+    background-image: url("cover-photo.jpg");
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -144,7 +144,7 @@ body {
 /* Cover Photo */
 
 .cover-section {
-    background-image: url("images/cover-photo.jpg.JPG");
+    background-image: url("cover-photo.jpg.JPG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
